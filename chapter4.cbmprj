@@ -48,7 +48,9 @@
         <PreBuildCommands />
         <PostBuildCommands />
     </BuildEvents>
-    <BuildList />
+    <BuildList>
+        <FileName>Assembly Files\main.asm</FileName>
+    </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
     <!--Screen designer settings-->
@@ -57,5 +59,17 @@
     <RawExportList />
     <!--End of screen designer settings-->
     <ExtendedBASIC>False</ExtendedBASIC>
-    <SourceFiles />
+    <SourceFiles>
+        <SourceFile>
+            <Name>\Assembly Files\main.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+    </SourceFiles>
 </Project>
